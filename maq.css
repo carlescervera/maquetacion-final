@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+header {
+    background-color: aqua;
+    height: 100px;
+}
+
+aside {
+    background-color: rgb(134, 134, 196);
+    width: 10%;
+}
+
+section {
+    background-color: cadetblue;
+    width: 80%;
+}
+footer {
+    background-color: darkblue;
+    height: 80px;
+    color: white;
+}
